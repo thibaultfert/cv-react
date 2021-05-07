@@ -15,7 +15,6 @@ const Knowledges = () => {
                 <OtherSkills />
                 <Hobbies />
             </div>
-            Hello depuis Knowledges
         </div>
     );
 };

@@ -8,7 +8,8 @@ const Navigation = () => {
                 
                 <div className="id">
                     <div className="idContent">
-                        <img src="./media/billGates.jpg" alt="profil-picture"/>
+                        <div><img src="./media/billGates.jpg" alt="profil-picture"/>
+                        <span>Bonne visite !</span></div>
                         <h3>Thibault Fert</h3>
                     </div>
                 </div>

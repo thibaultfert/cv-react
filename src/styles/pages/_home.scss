@@ -89,6 +89,14 @@
                             transition: width $t_dur ease $t_dur * 2, height $t_dur ease $t_dur * 3, visibility 0s $t_dur * 2;
                         }
                     }
+                    @keyframes pulse {
+                        from {
+                            box-shadow: 0 0 0 0 rgba(3,149,229,.4);
+                        }
+                        to {
+                            box-shadow: 0 0 0 45px rgba(3,149,229,0);
+                        }
+                    }
                 }
             }
         }
@@ -119,14 +127,5 @@
             font-size: 1.8rem !important;
             margin: 2rem;
         }
-    }
-}
-
-@keyframes pulse {
-    from {
-        box-shadow: 0 0 0 0 rgba(3,149,229,.4);
-    }
-    to {
-        box-shadow: 0 0 0 45px rgba(3,149,229,0);
     }
 }
