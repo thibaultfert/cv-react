@@ -27,12 +27,12 @@
             transform: translateX(-50%);
             width: 100%;
             &:hover img {
-                animation-duration: 5s;
+                animation-duration: 7s;
                 animation-name: idPicAnime;
                 animation-iteration-count: infinite;
             }
             &:hover span {
-                animation-duration: 10s;
+                animation-duration: 7s;
                 animation-name: TxtOnPicAnime;
                 animation-iteration-count: infinite;
             }
@@ -44,11 +44,9 @@
             span {
                 opacity: 0;
                 position: absolute;
-                top: 23%;
-                right: 19%;
-                color: rgb(219, 62, 0);
-                background-color: $color-1;
-                border-radius: 0.2rem;
+                top: 22%;
+                right: 25%;
+                color: $white;
                 margin: 1rem;
             }
             h3 {
@@ -188,7 +186,7 @@
     }
     25% {
         box-shadow: 0 0 0 12px $color-5, 0 0 0 20px $color-3;
-        filter: brightness(60%);
+        filter: brightness(30%);
     }
     50% {
         box-shadow: 0 0 0 6px $color-3, 0 0 0 12px $color-5; 
@@ -196,7 +194,7 @@
     }
     75% {
         box-shadow: 0 0 0 6px $color-5, 0 0 0 16px $color-3; 
-        filter: brightness(60%);
+        filter: brightness(30%);
     }
     to {
         box-shadow: 0 0 0 4px $color-3, 0 0 0 12px $color-5;
@@ -212,18 +210,18 @@
         opacity: 1;
     }
     50% {
-        transform: scale(2.0);
+        transform: scale(1.5);
     }
-    75% {
+    60% {
         transform: rotate(70deg);
     }
-    90% {
+    75% {
         transform: rotate(-120deg);
     }
-    92% {
+    80% {
         transform: rotate(-1600deg);
     }
-    98% {
+    85% {
         transform: rotate(-280deg);
         opacity: 1;
     }

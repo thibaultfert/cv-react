@@ -47,7 +47,7 @@
 					width: 36%;
 
 					&:nth-child(2) { //pour cibler le deuxieme span
-					text-align: right;
+					text-align: center;
 					width: 20%;
 					}
 					&:nth-child(3) { //pour cibler le troisieme span
@@ -211,7 +211,7 @@
 		}
 	}
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 	.knowledgesContent {
 		display: grid !important;
 		grid-template-columns: 1fr !important;
