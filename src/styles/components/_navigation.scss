@@ -45,7 +45,7 @@
                 opacity: 0;
                 position: absolute;
                 top: 22%;
-                right: 25%;
+                right: 18%;
                 color: $white;
                 margin: 1rem;
             }
@@ -192,7 +192,7 @@
         box-shadow: 0 0 0 6px $color-3, 0 0 0 12px $color-5; 
         transform: scale(1.05); 
     }
-    75% {
+    95% {
         box-shadow: 0 0 0 6px $color-5, 0 0 0 16px $color-3; 
         filter: brightness(30%);
     }
@@ -215,14 +215,11 @@
     60% {
         transform: rotate(70deg);
     }
-    75% {
-        transform: rotate(-120deg);
-    }
-    80% {
-        transform: rotate(-1600deg);
-    }
     85% {
-        transform: rotate(-280deg);
+        transform: rotate(-120deg) skew(70deg, 18deg);
+    }
+    90% {
+        transform: rotate(-1600deg);
         opacity: 1;
     }
     to {
