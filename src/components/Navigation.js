@@ -8,7 +8,7 @@ const Navigation = () => {
                 
                 <div className="id">
                     <div className="idContent">
-                        <div><img src="./media/billGates.jpg" alt="profil-picture"/>
+                        <div><img src="./media/billGates.jpg" alt="profil"/>
                         <span>Bonne visite !</span></div>
                         <h3>Thibault Fert</h3>
                     </div>
@@ -46,12 +46,12 @@ const Navigation = () => {
                 <div className="socialNetwork">
                     <ul>
                         <li>
-                            <a href="https://google.com" target="_blank" rel="noopener noreferer">
+                            <a href="https://google.com" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://google.com" target="_blank" rel="noopener noreferer">
+                            <a href="https://google.com" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-github"></i>
                             </a>
                         </li>

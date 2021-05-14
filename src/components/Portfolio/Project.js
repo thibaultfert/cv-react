@@ -9,18 +9,6 @@ class Project extends Component {
         this.setState({
             showInfo:!this.state.showInfo
         })
-        if (this.state.showInfo)
-        {         	
-            document.body.style.overflow = 'auto';
-            //les lignes en comment ne fonctionnent pas car il faudrait un id unique à chaque card !
-            //document.getElementById('popupInfo').style.display = "none" ;
-
-        } else {   
-            //var y = window.pageYOffset;
-            //document.getElementById('popupInfo').style.top = toString(y);
-            //document.getElementById('popupInfo').style.display = "block" ;
-            document.body.style.overflow = 'hidden';
-        }
     }
 
     render() {
@@ -39,9 +27,7 @@ class Project extends Component {
                         </a>
                 </div>
                 <div className="imageBox">
-                    <a target="_blank" rel="noopener noreferrer">
-                        <img src={picture} alt="website_picture" onClick={this.handleInfo}/>
-                    </a>
+                    <img src={picture} alt="website_picture" onClick={this.handleInfo}/>
                 </div>
                 <div className="infos">
                     <i className="fas fa-plus-circle" onClick={this.handleInfo}></i>
@@ -63,6 +49,7 @@ class Project extends Component {
                         </div>
                     )
                 }
+
             </div>
         );
     }

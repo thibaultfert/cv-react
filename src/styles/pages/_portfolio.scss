@@ -87,12 +87,13 @@
       }
     }
     .showInfos {
-      position: absolute;
+      position: fixed;
       top: 0;
       left: 0;
       right: 0;
       bottom: 0;
       background: rgba(0, 0, 0, 0.507);
+      font-family: $font-2;
       animation: popup .3s ease forwards ;
       transform-origin: center;
 
@@ -102,6 +103,7 @@
         width: 600px;
         margin: 0 auto;
         color: $color-5;
+        font-weight: bold;
         background: $color-1;
         border-radius: $borderRadius;
         padding: 2rem;

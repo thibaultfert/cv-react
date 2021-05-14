@@ -215,15 +215,15 @@
     60% {
         transform: rotate(70deg);
     }
-    85% {
-        transform: rotate(-120deg) skew(70deg, 18deg);
+    70% {
+        transform: rotate(-110deg) skew(70deg, 18deg);
     }
-    90% {
-        transform: rotate(-1600deg);
+    80% {
+        transform: rotate(-50deg) scale(0.5) ;
         opacity: 1;
     }
     to {
-        transform: scale(1);
+        transform: rotate(700deg) scale(0);
         opacity: 0;
     }
 }
