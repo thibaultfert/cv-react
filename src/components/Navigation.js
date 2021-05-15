@@ -46,12 +46,12 @@ const Navigation = () => {
                 <div className="socialNetwork">
                     <ul>
                         <li>
-                            <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/thibault-fert-828665179/" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="https://google.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/thibaultfert" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-github"></i>
                             </a>
                         </li>
