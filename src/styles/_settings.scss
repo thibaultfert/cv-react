@@ -48,6 +48,7 @@ a:visited {
 }
 .home, .knowledges, .portfolio, .contact {
     display: flex;
+    align-items: stretch;
 
     @media screen and (max-width: 850px){
         display: block !important;
