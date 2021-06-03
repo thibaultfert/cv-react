@@ -24,7 +24,7 @@ export const portfolioData = [
     name: 'let-me-introduce-myself.fr',
     languages: ['javascript','css'],
     languagesIcons: ['fab fa-js','fab fa-css3-alt','fab fa-react', 'fab fa-sass'],
-    source: 'https://github.com/thibaultfert/cv',
+    source: 'https://github.com/thibaultfert/cv-react',
     website: 'https://let-me-introduce-myself.fr/',
     info: 'Ce CV vous le connaissez déjà puisque vous y êtes actuellement. J\'avais déjà abordé React l\'année dernière à travers une formation. Mais devant le constat évident que React est un incourtournable du web d\'aujourd\'hui, j\'avais la ferme intention d\'approfondir mes acquis concernant cette bibliothèque. J\'ai alors décidé de proposer mon CV en ligne et de réaliser ce projet en React. J\'en ai également profité pour utiliser Sass.',
     picture: './media/cv.JPG'

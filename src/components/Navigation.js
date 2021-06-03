@@ -8,7 +8,7 @@ const Navigation = () => {
                 
                 <div className="id">
                     <div className="idContent">
-                        <div className="imgBox"><img width="72%" src="./media/billGates.jpg" alt="profil"/></div>
+                        <div className="imgBox"><img width="72%" src="./media/thibaultfert.jpg" alt="profil"/></div>
                         <span>Bienvenue</span>
                         <h3>Thibault Fert</h3>
                     </div>
