@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Nixie+One&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Judson&family=Nixie+One&family=Gruppo&display=swap');
 
-$font-1: 'Abril Fatface', cursive;
+$font-1: 'Judson', cursive;
 $font-2: 'Nixie One', sans-serif;
-$font-3: 'Train One', serif;
+$font-3: 'gruppo', serif;
 
-$color-1:#d6eaf8;
+$color-1:#041724;
 $color-2: #34495e;
-$color-3:#3498db;
-$color-4:#5dade2;
-$color-5:#2C2455;
+$color-3:#e9efff;
+$color-4:#001e31;
+$color-5:#c8bdff;
 $white:#cacfd2;
 $black:#17202A;
 
-$borderRadius: 5px;
+$borderRadius: 2px;
 $shadow: 0 1px 3px #17202A;
 $minHeight: 95vh;
 
@@ -27,11 +27,9 @@ $minHeight: 95vh;
     padding: 0;
 }
 body {
-    margin: 1rem auto;
-    max-width: 1200px;
     min-height: 100vh;
     font-family: $font-1;
-    color: $black;
+    color: $white;
 }
 button {
     cursor: pointer;
@@ -55,7 +53,6 @@ a:visited {
     }
 }
 .homeContent, .knowledgesContent, .portfolioContent, .contactContent {
-    margin-left: 0.4rem;
 
     @media screen and (max-width: 850px){
         margin-left: 0 !important;

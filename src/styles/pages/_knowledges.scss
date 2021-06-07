@@ -1,22 +1,16 @@
 .knowledges {
-	overflow: hidden;
 
   	.knowledgesContent {
-		min-height: $minHeight;
+		overflow: auto;
+        height: $minHeight;
 		width: 100%;
-		position: relative;
-		display: grid;
-		grid-template-columns: 38% 1fr 1fr;
-		grid-template-rows: minmax(min-content, 70%) minmax(min-content, 30%);
-		grid-column-gap: 0.4rem;
-		grid-template-areas:
-		"L E E"
-		"O O H";
-		
+		display: flex;
+		flex-direction: column;
+	
 		.languagesFrameworks, .experience, .otherSkills, .hobbies {
 			background: $color-4;
 			border-radius: $borderRadius;
-			padding: 0.8rem;
+			padding: 0 1rem;
 		}
 		h3 {
 			font-size: 1.6rem;
@@ -25,10 +19,10 @@
 			text-transform: uppercase;
 		}
 		.languagesFrameworks {
-			grid-area: L;
 			display: grid;
 			grid-template-columns: 1fr;
 			grid-template-rows: 1fr 1fr;
+			width: 100%;
 
 			.languageDisplay, .frameworkDisplay {
 				min-height: min-content;
